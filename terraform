@@ -123,7 +123,6 @@ resource "aws_eip" "proj-eip" {
  associate_with_private_ip = "10.0.1.10"
 }
 
-
 # Creating an ubuntu EC2 instance
 resource "aws_instance" "Prod-Server" {
  ami = "ami-053b0d53c279acc90"
